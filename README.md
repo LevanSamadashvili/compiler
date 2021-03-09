@@ -1,5 +1,5 @@
 # Compiler
-	- Basic C Compiler (written in python)
+	= Basic C Compiler (written in python)
 
 # Details
 	- Python version:            	 3.8.5 x64
@@ -8,22 +8,23 @@
 
 # Run
     # Linux
-      chmod u+x ./compiler.py
-      ./compiler.py test.c       OR   python3 ./compiler.py test.c  (Generates test.s in the current directory)
-      gcc test.s
-      ./a.out
+      - chmod u+x ./compiler.py
+      - ./compiler.py test.c       OR   python3 ./compiler.py test.c  (Generates test.s in the current directory)
+      - gcc test.s
+      - ./a.out
 	  
     
     # Windows
-      - Change the name of the module parser.py to something else, it should
+      = Change the name of the module parser.py to something else, it should
 	work normally after that.
-    	
+    
+      - python3.9.exe .\compiler.py .\test.c  (Generates test.s in the current directory)
 
     # To link with gcc
-      - You'll need gcc x64 to make executable files from .s files.
+      = You'll need gcc x64 to make executable files from .s files.
 
 # Sample programs 
-	- You can find sample programs and their assembly files
+	= You can find sample programs and their assembly files
 	  in "examples" directory.
 
 # Capabilities
