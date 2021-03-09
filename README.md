@@ -27,7 +27,8 @@
 	  in "examples" directory.
 
 # Capabilities
-	- Primitive types: **char**, **short**, **int**, **long**
+	- Primitive types: char, short, int, long
+	- Pointers, pointer arithmetic
 	- Arithmetic operators
 	- Logical operators
 	- Some unary/binary operators
