@@ -16,7 +16,7 @@
     
     # Windows
       = Change the name of the module parser.py to something else (parser_w.py for example), 
-     	then change "import Parser from parser" to "import Parser from parser_w" (in compiler.py)
+        then change "import Parser from parser" to "import Parser from parser_w" (in compiler.py)
         it should work normally after that.
 	
       - python3.9.exe .\compiler.py .\test.c  (Generates test.s in the current directory)
