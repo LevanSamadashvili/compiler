@@ -37,7 +37,7 @@
 	- if/else operators
 	- for/while/do-while loops
 	- Declaring and using an array
-	- Basic Struct functionality (such as defining and using ".", "->" operators)
+	- Basic Struct functionality (such as defining and using structures, accessing elements via: ".", "->" operators)
 
 # Available C symbols
 	# OPEN_BRACE        {
