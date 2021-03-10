@@ -7,21 +7,21 @@
 	- Assembly syntax:		 AT&T Syntax
 
 # Run
-    # Linux
+    ## Linux
       - chmod u+x ./compiler.py
       - ./compiler.py test.c       OR   python3 ./compiler.py test.c  (Generates test.s in the current directory)
       - gcc test.s
       - ./a.out
 	  
     
-    # Windows
+    ## Windows
       = Change the name of the module parser.py to something else (parser_w.py for example), 
         then change "import Parser from parser" to "import Parser from parser_w" (in compiler.py)
         it should work normally after that.
 	
       - python3.9.exe .\compiler.py .\test.c  (Generates test.s in the current directory)
 
-    # To link with gcc
+    ## To link with gcc
       = You'll need gcc x64 to make executable files from .s files.
 
 # Sample programs 
