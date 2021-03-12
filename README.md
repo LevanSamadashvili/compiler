@@ -1,5 +1,5 @@
 # Compiler
-	= Basic C Compiler (written in python)
+Basic C Compiler (written in python)
 
 # Details
 	- Python version:            	 3.8.5 x64
