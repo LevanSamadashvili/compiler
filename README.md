@@ -26,7 +26,7 @@ Basic C Compiler (written in python)
 
 # Sample programs 
 - You can find sample programs and their assembly files
-  in "examples" directory.
+  in the "examples" directory.
 
 # Capabilities
 - Primitive types: **char**, **short**, **int**, **long**
