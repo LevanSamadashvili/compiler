@@ -6,6 +6,23 @@ Basic C Compiler (written in python)
 - Assembly architecture: 	 **x64**
 - Assembly syntax:		 **AT&T Syntax**
 
+## Capabilities
+- Primitive types: **char**, **short**, **int**, **long**
+- Pointers, pointer arithmetic (**void*** too, NULL is not defined)
+- Arithmetic operators
+- Logical operators
+- Some unary/binary operators
+- **if/else** operators
+- **for/while/do-while** loops
+- Declaring and using an **array** (you can also initialize an array like this, int arr[3][4][5] = {1, 2, 3, 4, 5, 6, 7}, no need for inner braces)
+- Basic **struct** functionality (such as defining and using structures, accessing elements via: ".", "->" operators)
+- Defining **functions**, and calling them
+- Defining **function pointers** and using them
+
+## Sample programs 
+- You can find sample programs and their assembly files
+  in the "examples" directory.
+
 ## Run
    ### Linux
       $ chmod u+x ./compiler.py
@@ -23,23 +40,6 @@ Basic C Compiler (written in python)
 
    ### To link with gcc
       = You'll need gcc x64 to make executable files from .s files.
-
-## Sample programs 
-- You can find sample programs and their assembly files
-  in the "examples" directory.
-
-## Capabilities
-- Primitive types: **char**, **short**, **int**, **long**
-- Pointers, pointer arithmetic (**void*** too, NULL is not defined)
-- Arithmetic operators
-- Logical operators
-- Some unary/binary operators
-- **if/else** operators
-- **for/while/do-while** loops
-- Declaring and using an **array** (you can also initialize an array like this, int arr[3][4][5] = {1, 2, 3, 4, 5, 6, 7}, no need for inner braces)
-- Basic **struct** functionality (such as defining and using structures, accessing elements via: ".", "->" operators)
-- Defining **functions**, and calling them
-- Defining **function pointers** and using them
 
 ## Notes
 - Compiler doesn't support many things, such as string/character literals, global variables, ++/-- operators and many more.
