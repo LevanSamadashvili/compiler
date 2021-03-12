@@ -36,8 +36,8 @@ Basic C Compiler (written in python)
 - Some unary/binary operators
 - **if/else** operators
 - **for/while/do-while** loops
-- Declaring and using an array
-- Basic **Struct** functionality (such as defining and using structures, accessing elements via: ".", "->" operators)
+- Declaring and using an **array**
+- Basic **struct** functionality (such as defining and using structures, accessing elements via: ".", "->" operators)
 
 # Available C symbols
 	# OPEN_BRACE        {
