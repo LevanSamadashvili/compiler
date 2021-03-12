@@ -2,9 +2,9 @@
 Basic C Compiler (written in python)
 
 # Details
-	- Python version:            	 3.8.5 x64
-	- Assembly architecture: 	 x64
-	- Assembly syntax:		 AT&T Syntax
+- Python version:            	 3.8.5 x64
+- Assembly architecture: 	 x64
+- Assembly syntax:		 AT&T Syntax
 
 # Run
    ### Linux
