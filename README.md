@@ -36,7 +36,7 @@ Basic C Compiler (written in python)
 - Some unary/binary operators
 - **if/else** operators
 - **for/while/do-while** loops
-- Declaring and using an **array**
+- Declaring and using an **array** (you can also initialize an array like this, int arr[3][4][5] = {1, 2, 3, 4, 5, 6, 7})
 - Basic **struct** functionality (such as defining and using structures, accessing elements via: ".", "->" operators)
 - Defining **functions**, and calling them
 - Defining **function pointers** and using them
