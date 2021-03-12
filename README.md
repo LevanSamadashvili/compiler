@@ -8,10 +8,10 @@ Basic C Compiler (written in python)
 
 # Run
    ### Linux
-      - chmod u+x ./compiler.py
-      - ./compiler.py test.c       OR   python3 ./compiler.py test.c  (Generates test.s in the current directory)
-      - gcc test.s
-      - ./a.out
+      $ chmod u+x ./compiler.py
+      $ ./compiler.py test.c       OR   python3 ./compiler.py test.c  (Generates test.s in the current directory)
+      $ gcc test.s
+      $ ./a.out
 	  
     
    ### Windows
@@ -25,19 +25,19 @@ Basic C Compiler (written in python)
       = You'll need gcc x64 to make executable files from .s files.
 
 # Sample programs 
-	= You can find sample programs and their assembly files
-	  in "examples" directory.
+- You can find sample programs and their assembly files
+  in "examples" directory.
 
 # Capabilities
-	- Primitive types: char, short, int, long
-	- Pointers, pointer arithmetic
-	- Arithmetic operators
-	- Logical operators
-	- Some unary/binary operators
-	- if/else operators
-	- for/while/do-while loops
-	- Declaring and using an array
-	- Basic Struct functionality (such as defining and using structures, accessing elements via: ".", "->" operators)
+- Primitive types: **char**, **short**, **int**, **long**
+- Pointers, pointer arithmetic (**void*** too, NULL is not defined)
+- Arithmetic operators
+- Logical operators
+- Some unary/binary operators
+- **if/else** operators
+- **for/while/do-while** loops
+- Declaring and using an array
+- Basic **Struct** functionality (such as defining and using structures, accessing elements via: ".", "->" operators)
 
 # Available C symbols
 	# OPEN_BRACE        {
