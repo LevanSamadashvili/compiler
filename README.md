@@ -44,6 +44,7 @@ Basic C Compiler (written in python)
 ## Notes
 - Compiler doesn't support many things, such as string/character literals, global variables, ++/-- operators and many more.
 - Also, it is little bit buggy if you use many "->" operators together, there might be some other bugs too.
+- There's no type-casting.
 
 ## Available C symbols
 	# OPEN_BRACE        {
