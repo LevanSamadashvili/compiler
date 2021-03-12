@@ -1,12 +1,12 @@
 # Compiler
 Basic C Compiler (written in python)
 
-# Details
+## Details
 - Python version:            	 **3.8.5 x64**
 - Assembly architecture: 	 **x64**
 - Assembly syntax:		 **AT&T Syntax**
 
-# Run
+## Run
    ### Linux
       $ chmod u+x ./compiler.py
       $ ./compiler.py test.c       OR   python3 ./compiler.py test.c  (Generates test.s in the current directory)
@@ -16,7 +16,7 @@ Basic C Compiler (written in python)
     
    ### Windows
       = If it doesn't work straight away, change the name of the module parser.py to something else (parser_w.py for example), 
-        then change "import Parser from parser" to "import Parser from parser_w" (in compiler.py)
+        then change "import Parser from parser" to "import Parser from parser_w" (in compiler.py:5)
         it should work normally after that.
 	
       - python3.9.exe .\compiler.py .\test.c  (Generates test.s in the current directory)
@@ -24,11 +24,11 @@ Basic C Compiler (written in python)
    ### To link with gcc
       = You'll need gcc x64 to make executable files from .s files.
 
-# Sample programs 
+## Sample programs 
 - You can find sample programs and their assembly files
   in the "examples" directory.
 
-# Capabilities
+## Capabilities
 - Primitive types: **char**, **short**, **int**, **long**
 - Pointers, pointer arithmetic (**void*** too, NULL is not defined)
 - Arithmetic operators
@@ -38,8 +38,13 @@ Basic C Compiler (written in python)
 - **for/while/do-while** loops
 - Declaring and using an **array**
 - Basic **struct** functionality (such as defining and using structures, accessing elements via: ".", "->" operators)
+- Defining **functions**, and calling them
+- Defining **function pointers** and using them
 
-# Available C symbols
+## Notes
+- Compiler doesn't support many things, such as string/character literals, global variables, ++/-- operators and many more.
+
+## Available C symbols
 	# OPEN_BRACE        {
 	# CLOSE_BRACE       }
 	# OPEN_PAREN        \(
