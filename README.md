@@ -25,11 +25,12 @@ Basic C Compiler (written in python)
 
 ## Run
    #### Linux
+   ```
       $ chmod u+x ./compiler.py
       $ ./compiler.py test.c       OR   python3 ./compiler.py test.c  (Generates test.s in the current directory)
       $ gcc test.s
       $ ./a.out
-	  
+  ```
     
    #### Windows
       = If it doesn't work straight away, change the name of the module parser.py to something else (parser_w.py for example), 
@@ -47,6 +48,7 @@ Basic C Compiler (written in python)
 - There's no type-casting.
 
 ## Available C symbols
+```c
 	# OPEN_BRACE        {
 	# CLOSE_BRACE       }
 	# OPEN_PAREN        \(
@@ -91,3 +93,4 @@ Basic C Compiler (written in python)
 	# TYPEDEF           typedef
 	# STRUCT            struct
 	# ACCESS            ->
+```
