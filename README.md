@@ -24,24 +24,31 @@ Basic C Compiler (written in python)
   in the "examples" directory.
 
 ## Run
-   #### Linux
-   ```
-      $ chmod u+x ./compiler.py
-      $ ./compiler.py test.c       OR   python3 ./compiler.py test.c  (Generates test.s in the current directory)
-      $ gcc test.s
-      $ ./a.out
-  ```
+#### Linux
+```sh
+$ chmod u+x ./compiler.py
+$ ./compiler.py test.c       OR 
+$ python3 ./compiler.py test.c  
+  (Both commands generate test.s in the current directory)
+$ gcc test.s
+$ ./a.out
+```
     
-   #### Windows
-      = If it doesn't work straight away, change the name of the module parser.py to something else (parser_w.py for example), 
-        then change "import Parser from parser" to "import Parser from parser_w" (in compiler.py:5)
-        it should work normally after that.
-	
-      - python3.9.exe .\compiler.py .\test.c  (Generates test.s in the current directory)
+#### Windows
+```
+If it doesn't work straight away, change the name of the module parser.py
+to something else (parser_w.py for example), 
+then change "import Parser from parser" to 
+"import Parser from parser_w" (in compiler.py:5)
+it should work normally after that.
 
-   #### To link with gcc
-      = You'll need gcc x64 to make executable files from .s files.
-
+$ python3.9.exe .\compiler.py .\test.c  
+(Generates test.s in the current directory)
+```
+#### To link with gcc
+```
+You'll need gcc x64 to make executable files from .s files.
+```
 ## Notes
 - Compiler doesn't support many things, such as string/character literals, global variables, ++/-- operators and many more.
 - Also, it is little bit buggy if you use many "->" operators together, there might be some other bugs too.
@@ -49,48 +56,48 @@ Basic C Compiler (written in python)
 
 ## Available C symbols
 ```c
-	# OPEN_BRACE        {
-	# CLOSE_BRACE       }
-	# OPEN_PAREN        \(
-	# CLOSE_PAREN       \)
-	# SEMI_COLON        ;
-	# CHAR              char
-	# SHORT             short
-	# INT               int
-	# LONG              long
-	# RETURN            return
-	# IDENTIFIER        [a-zA-Z]\w*
-	# INT_LITERAL       [0-9]+
-	# NEGATION          -
-	# BITWISE_NEGATION  ~
-	# LOGICAL_NEGATION  !
-	# ADDITION          +
-	# MULTIPLICATION    *
-	# DIVISION          /
-	# AND               &&
-	# OR                ||
-	# EQUAL             ==
-	# NOT_EQUAL         !=
-	# LESS_THAN         <
-	# LESS_OR_EQUAL     <=
-	# GREATER_THAN      >
-	# GREATER_OR_EQUAL  >=
-	# MODULO            %
-	# ASSIGNMENT        =
-	# IF                if
-	# ELSE              else
-	# FOR               for
-	# WHILE             while
-	# DO                do
-	# BREAK             break
-	# CONTINUE          continue
-	# COMMA             ,
-	# VOID              void
-	# ADDRESS           &
-	# OPEN_SQUARE       [
-	# CLOSE_SQUARE      ]
-	# DOT               .
-	# TYPEDEF           typedef
-	# STRUCT            struct
-	# ACCESS            ->
+# OPEN_BRACE        {
+# CLOSE_BRACE       }
+# OPEN_PAREN        \(
+# CLOSE_PAREN       \)
+# SEMI_COLON        ;
+# CHAR              char
+# SHORT             short
+# INT               int
+# LONG              long
+# RETURN            return
+# IDENTIFIER        [a-zA-Z]\w*
+# INT_LITERAL       [0-9]+
+# NEGATION          -
+# BITWISE_NEGATION  ~
+# LOGICAL_NEGATION  !
+# ADDITION          +
+# MULTIPLICATION    *
+# DIVISION          /
+# AND               &&
+# OR                ||
+# EQUAL             ==
+# NOT_EQUAL         !=
+# LESS_THAN         <
+# LESS_OR_EQUAL     <=
+# GREATER_THAN      >
+# GREATER_OR_EQUAL  >=
+# MODULO            %
+# ASSIGNMENT        =
+# IF                if
+# ELSE              else
+# FOR               for
+# WHILE             while
+# DO                do
+# BREAK             break
+# CONTINUE          continue
+# COMMA             ,
+# VOID              void
+# ADDRESS           &
+# OPEN_SQUARE       [
+# CLOSE_SQUARE      ]
+# DOT               .
+# TYPEDEF           typedef
+# STRUCT            struct
+# ACCESS            ->
 ```
